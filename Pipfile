@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+Django = "==2.1"
+djangorestframework = "==3.8.2"
+djangorestframework-jwt = "==1.11.0"
+PyJWT = "==1.6.4"
+psycopg2-binary = "==2.7.5"
+django-heroku = "*"
+gunicorn = "*"
+whitenoise = "*"
+markdown = "*"
+django-filter = "==2.0.0"
+django-extensions = "*"
+pytz = "*"
+ipython = "*"
+django-jet = "*"
+werkzeug = "*"
+django-debug-toolbar = "*"
+raven = "*"
+django-cors-headers = "==2.4.0"
+django-querycount = "*"
+
+[requires]
+python_version = "3.7"
